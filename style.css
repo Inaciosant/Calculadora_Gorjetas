@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
+:root{
+--Cor-primaria: #4c7583 ;
+}
+body{
+
+    
+  background-color: var(--Cor-primaria);
+  font-size: 15px;
+  font-family: Roboto, sans-serif; 
+
+}
+
+#container{
+font-family: 'Times New Roman', Times, serif; 
+height: 525px;
+width: 360px;
+margin: 100px auto;
+background: #F0F8FF;
+box-shadow:5px 5px 5px #0099ff ;
+border-radius: 25px;
+}
+
+.title {
+
+background:#7B68EE	 ;
+color: black;
+padding: 20px;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: normal;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+text-align: center;
+}
+
+.Gorjetas {
+padding-left: 20px;
+}
+
+.forminput {
+background: white;
+width: 40px;
+padding: 5px 5px 8px 8px;
+}
+
+.forminput:focus {
+border: 3px solid  coral;
+}
+.formsel {
+width:180px ;
+padding: 5px;
+font-size: 12px;
+}
+
+.botão {
+text-transform:uppercase ;
+font-weight: bold;
+display: block;
+margin: 30px auto;
+background-color: #0099ff;
+width: 150px;
+
+}
+
+#total {
+font-size:20px ;
+margin: 5px;
+text-align: center;
+
+
+
+
+ }
